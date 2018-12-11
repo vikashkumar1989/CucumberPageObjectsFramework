@@ -35,7 +35,7 @@ public class PositiveTest extends AbstractTestNGCucumberTests {
 		// File("F:\\cucumber-testing-master\\ExtenReports\\extentreports.html"),false);
 		// Loads the extent config xml to customize on the report.
 		ExtentCucumberFormatter.loadConfig(new File("src/test/resources/extent-config.xml"));
-		// User can add the system information as follows
+		// User can add the system information as follows like browser Name, Version as follows
 		ExtentCucumberFormatter.addSystemInfo("Browser Name", "Firefox");
 		ExtentCucumberFormatter.addSystemInfo("Browser version", "v31.0");
 		ExtentCucumberFormatter.addSystemInfo("Selenium version", "v2.53.0");
