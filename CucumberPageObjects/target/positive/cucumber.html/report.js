@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7693919366,
+  "duration": 23859723799,
   "status": "passed"
 });
 formatter.scenario({
@@ -104,14 +104,14 @@ formatter.match({
   "location": "CarSearchSteps.i_am_on_the_home_page_of_url(String)"
 });
 formatter.result({
-  "duration": 46469922065,
+  "duration": 42164602496,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_navigate_to_Menu(String\u003e)"
 });
 formatter.result({
-  "duration": 933614737,
+  "duration": 1803241795,
   "status": "passed"
 });
 formatter.match({
@@ -124,8 +124,9 @@ formatter.match({
   "location": "CarSearchSteps.i_click_on_Link(String)"
 });
 formatter.result({
-  "duration": 22668585102,
-  "status": "passed"
+  "duration": 35300275959,
+  "error_message": "org.openqa.selenium.ElementNotVisibleException: element not interactable\n  (Session info: chrome\u003d71.0.3578.98)\n  (Driver info: chromedriver\u003d2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform\u003dWindows NT 10.0.17134 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027VIKASH-PC\u0027, ip: \u002710.0.0.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\\Users\\Vikash\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51182}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: 3f65a9e07c9577343b3c705a826b7933\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat pages.actions.CarGuideHomepageActions.clickOnSearchCars(CarGuideHomepageActions.java:22)\r\n\tat pages.actions.CarGuideHomepageActions.clickOnSearch(CarGuideHomepageActions.java:32)\r\n\tat steps.CarSearchSteps.i_click_on_Link(CarSearchSteps.java:39)\r\n\tat ✽.Then I click on \"Search Cars\" Link(Car Search.feature:13)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -137,8 +138,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_Any_Make_as(String)"
 });
 formatter.result({
-  "duration": 6467667352,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -150,8 +150,7 @@ formatter.match({
   "location": "CarSearchSteps.i_Select_Model_as(String)"
 });
 formatter.result({
-  "duration": 1637839898,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -163,8 +162,7 @@ formatter.match({
   "location": "CarSearchSteps.i_Select_Location_as(String)"
 });
 formatter.result({
-  "duration": 809905528,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -176,15 +174,13 @@ formatter.match({
   "location": "CarSearchSteps.i_select_price_as(String)"
 });
 formatter.result({
-  "duration": 1176023044,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CarSearchSteps.i_Click_on_Fnd_My_Next_Car_Button()"
 });
 formatter.result({
-  "duration": 32092883280,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -196,8 +192,7 @@ formatter.match({
   "location": "CarSearchSteps.i_should_see_list_of_cars_from(String)"
 });
 formatter.result({
-  "duration": 230511,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -209,11 +204,11 @@ formatter.match({
   "location": "CarSearchSteps.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 49476778,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 3645287173,
+  "duration": 2671601794,
   "status": "passed"
 });
 formatter.uri("New Car Search.feature");
@@ -231,7 +226,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 8401088908,
+  "duration": 5764050857,
   "status": "passed"
 });
 formatter.scenario({
@@ -374,14 +369,14 @@ formatter.match({
   "location": "CarSearchSteps.i_am_on_the_home_page_of_url(String)"
 });
 formatter.result({
-  "duration": 32750857883,
+  "duration": 18992252710,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_navigate_to_Menu(String\u003e)"
 });
 formatter.result({
-  "duration": 547181468,
+  "duration": 196618686,
   "status": "passed"
 });
 formatter.match({
@@ -394,21 +389,21 @@ formatter.match({
   "location": "CarSearchSteps.i_click_on_Link(String)"
 });
 formatter.result({
-  "duration": 29005790303,
+  "duration": 22352072166,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_select_Any_Make(String\u003e)"
 });
 formatter.result({
-  "duration": 2321753973,
+  "duration": 760338896,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_Select_Model_as(String\u003e)"
 });
 formatter.result({
-  "duration": 1243695714,
+  "duration": 2010890908,
   "status": "passed"
 });
 formatter.match({
@@ -421,7 +416,7 @@ formatter.match({
   "location": "CarSearchSteps.i_Select_Location_as(String)"
 });
 formatter.result({
-  "duration": 1159317072,
+  "duration": 793460042,
   "status": "passed"
 });
 formatter.match({
@@ -434,21 +429,21 @@ formatter.match({
   "location": "CarSearchSteps.i_select_price_as(String)"
 });
 formatter.result({
-  "duration": 1631121953,
+  "duration": 790186703,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_Click_on_Fnd_My_Next_Car_Button()"
 });
 formatter.result({
-  "duration": 25129357658,
+  "duration": 28068375678,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_should_see_list_of_cars()"
 });
 formatter.result({
-  "duration": 142319,
+  "duration": 199713,
   "status": "passed"
 });
 formatter.match({
@@ -461,11 +456,11 @@ formatter.match({
   "location": "CarSearchSteps.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 21020351,
+  "duration": 53674352,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2187703972,
+  "duration": 2874897344,
   "status": "passed"
 });
 formatter.uri("Used Car Search.feature");
@@ -483,7 +478,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 8203383843,
+  "duration": 4504487484,
   "status": "passed"
 });
 formatter.scenario({
@@ -626,14 +621,14 @@ formatter.match({
   "location": "CarSearchSteps.i_am_on_the_home_page_of_url(String)"
 });
 formatter.result({
-  "duration": 22092801155,
+  "duration": 24520997428,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_navigate_to_Menu(String\u003e)"
 });
 formatter.result({
-  "duration": 656466950,
+  "duration": 336656911,
   "status": "passed"
 });
 formatter.match({
@@ -646,21 +641,21 @@ formatter.match({
   "location": "CarSearchSteps.i_click_on_Link(String)"
 });
 formatter.result({
-  "duration": 27456176338,
+  "duration": 21066320683,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_select_Any_Make(String\u003e)"
 });
 formatter.result({
-  "duration": 2845883888,
+  "duration": 1433606057,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_Select_Model_as(String\u003e)"
 });
 formatter.result({
-  "duration": 1833068137,
+  "duration": 2886466250,
   "status": "passed"
 });
 formatter.match({
@@ -673,7 +668,7 @@ formatter.match({
   "location": "CarSearchSteps.i_Select_Location_as(String)"
 });
 formatter.result({
-  "duration": 1227710206,
+  "duration": 1115493554,
   "status": "passed"
 });
 formatter.match({
@@ -686,21 +681,21 @@ formatter.match({
   "location": "CarSearchSteps.i_select_price_as(String)"
 });
 formatter.result({
-  "duration": 1038780420,
+  "duration": 820600521,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_Click_on_Fnd_My_Next_Car_Button()"
 });
 formatter.result({
-  "duration": 25778866820,
+  "duration": 23988698933,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_should_see_list_of_cars()"
 });
 formatter.result({
-  "duration": 167983,
+  "duration": 131120,
   "status": "passed"
 });
 formatter.match({
@@ -713,11 +708,11 @@ formatter.match({
   "location": "CarSearchSteps.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 30537090,
+  "duration": 20485546,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2562883271,
+  "duration": 3580709841,
   "status": "passed"
 });
 });
